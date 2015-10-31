@@ -32,4 +32,8 @@
   };
   request.send();
 
+  //THEN, CREATE THE UI
+  visualisercontainer = document.querySelector(".visualiser");
+  playbuttoncontainer = document.createElement('button');
+  visualisercontainer.appendChild(playbuttoncontainer);
 }).call(this);
